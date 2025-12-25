@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.badge {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 4px;
+  color: white;
+}
+
+.badge.original {
+  background-color: #007bff;
+}
+
+.badge.updated {
+  background-color: #28a745;
+}
+
+.content {
+  color: #333;
+}
+
+.references ul {
+  padding-left: 20px;
+}
+
+.references a {
+  color: #007bff;
+  text-decoration: none;
+}
